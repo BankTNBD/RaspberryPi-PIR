@@ -23,9 +23,9 @@ int main(void)
 	printf("|                                      |\n");
 	printf("========================================\n");
 	printf("\n");
-	delay(30000);
+	delay(10000);
 	system("amixer -D pulse sset Master 50%");
-	system("mpg123 /home/banky/beep.mp3");
+	system("mpg123 /home/banky/is/beep.mp3");
 	delay(1000);
 	system("amixer -D pulse sset Master 100%");
 	while(1){
@@ -41,8 +41,8 @@ int main(void)
 		printf("===================|\n");
 		printf("|      alarm...    |\n");
 		printf("===================|\n");
-		system("mpg123 /home/banky/eagle-scream-112940.mp3  >/dev/null 2>&1");
-		delay(2000);
+		system("mpg123 /home/banky/is/eagle-scream-112940.mp3  >/dev/null 2>&1");
+		delay(1000);
 		}
 	}
 
